@@ -1,11 +1,22 @@
+import Header from "./components/Header";
+import Product from "./components/Product";
+import Shop from "./components/Shop";
+import { DUMMY_PRODUCTS } from "./dummy-products";
 
+import CartContextProvider from "./store/cart-context";
 
 function App() {
-
   return (
-    <>
-      <h1>Hello World!</h1>
-    </>
+    <CartContextProvider>
+      <Header />
+      <Shop>
+        {DUMMY_PRODUCTS.map((product) => (
+          <li key={product.id}>
+            <Product {...product} />
+          </li>
+        ))}
+      </Shop>
+    </CartContextProvider>
   );
 }
 
