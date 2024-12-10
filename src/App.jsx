@@ -1,12 +1,19 @@
-
+import Player from "./components/Player";
+import TimerChallenge from "./components/TimerChallenge";
 
 function App() {
-
   return (
     <>
-      <h1>Hello World!</h1>
+      <Player />
+      <div id="challenges">
+        <TimerChallenge title="Easy" targetTime={1} />
+        <TimerChallenge title="Medium" targetTime={5} />
+        <TimerChallenge title="Hard" targetTime={10} />
+        <TimerChallenge title="Pro" targetTime={15} />
+      </div>
     </>
   );
 }
 
 export default App;
+
