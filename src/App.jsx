@@ -1,12 +1,16 @@
-
+import Header from "./components/Header";
+import Login from "./components/Login";
 
 function App() {
-
   return (
     <>
-      <h1>Hello World!</h1>
+      <Header />
+      <main>
+        <Login />
+      </main>
     </>
   );
 }
 
 export default App;
+
