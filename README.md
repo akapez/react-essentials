@@ -5,4 +5,5 @@
 - Tanstack Query
 - React Optimization Techniques
 - Custom React Hooks
-- React Patterns/ Best Practices 
+- React Patterns/ Best Practices
+- React Forms and User Inputs
