@@ -7,3 +7,4 @@
 - Custom React Hooks
 - React Patterns/ Best Practices
 - React Forms and User Inputs
+- Redux Advanced
