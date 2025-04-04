@@ -8,3 +8,6 @@
 - React Patterns/ Best Practices
 - React Forms and User Inputs
 - Redux Advanced
+- Form Actions
+- Advanced Hooks
+- API Layer - async 
